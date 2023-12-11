@@ -1,7 +1,7 @@
 {
   "name": "tesla",
   "version": "0.1.0",
-  "homepage": "https://kiruthigaa-k.github.io/react-gh-pages",
+  "homepage": "https://kiruthigaa-k.github.io/Tesla-Clone",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",

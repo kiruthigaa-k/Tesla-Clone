@@ -1,6 +1,7 @@
 {
   "name": "tesla",
   "version": "0.1.0",
+  "homepage": "https://kiruthigaa-k.github.io/react-gh-pages",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
@@ -25,8 +26,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
+
   "eslintConfig": {
     "extends": [
       "react-app",

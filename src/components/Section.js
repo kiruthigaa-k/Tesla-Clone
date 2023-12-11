@@ -44,7 +44,7 @@ const Wrap=styled.div`
     flex-direction:column;
     justify-content:space-between;//vertical
     align-items:center;//horizontal
-    background-image: ${props => `url("/images/${props.bgImage}")`}
+    background-image: ${props => `url("/Tesla-Clone/images/${props.bgImage}")`}
 `
 const ItemText=styled.div`
     padding-top:20vh;
